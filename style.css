@@ -1,0 +1,29 @@
+.anticon {
+  display: inline-flex;
+  align-items: center;
+  color: inherit;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.anticon svg {
+  display: inline-block;
+}
+
+.anticon-spin {
+  animation: loadingCircle 1s infinite linear;
+}
+
+@keyframes loadingCircle {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* ... باقي التنسيقات لو عايز تكملها من الملف الأصلي */
+
